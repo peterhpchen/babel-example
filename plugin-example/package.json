@@ -1,0 +1,18 @@
+{
+  "name": "plugin-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist --plugins=transform-es2015-block-scoping,transform-es2015-arrow-functions,transform-es2015-template-literals"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
+    "babel-plugin-transform-es2015-block-scoping": "^6.26.0",
+    "babel-plugin-transform-es2015-template-literals": "^6.22.0"
+  }
+}
