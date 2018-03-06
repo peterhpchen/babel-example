@@ -1,0 +1,1 @@
+const helloFunc = (input) => { console.log(`Hello ${input}`)};
